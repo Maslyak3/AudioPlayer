@@ -1,0 +1,64 @@
+body {
+    background-image: url(src/background.jpg);
+    background-size: cover;
+}
+.background {
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.background img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.controls {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.buttons {
+    width: 30px;
+}
+.artist, .song-name {
+    margin-left: 10%;
+    font-family: 'sofadi one';
+}
+
+.song-progress {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.duration {
+   display: block;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 460px;
+    color: white;
+}
+.time-stamp {
+    display: block;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 480px;
+    color: white;
+}
+footer {
+    text-align: center;
+    }
+footer a:visited {
+    text-decoration: none;
+}
