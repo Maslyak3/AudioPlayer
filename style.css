@@ -56,3 +56,9 @@ body {
     margin-top: 480px;
     color: white;
 }
+footer {
+    text-align: center;
+    }
+footer a:visited {
+    text-decoration: none;
+}

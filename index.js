@@ -59,5 +59,4 @@ function timing() {
 
 song.addEventListener('ended', function() { next() });
 
-
 setInterval(timing, 500)
